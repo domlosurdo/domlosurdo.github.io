@@ -1,0 +1,43 @@
+body {
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL3B4MTAxNzU1NC1pbWFnZS1rd3Z3ZzZidi5qcGc.jpg);
+    background-size: cover;
+    text-align: center; 
+    padding-top: 75px;
+}
+h1 {
+    color: rgb(2, 0, 0);
+    font-size: 32px;
+    font-family: Tahoma;
+    margin: 25px 15% 25px 15%;
+    background-color: burlywood;
+    border: 7px black solid;
+    outline: 5px orangered solid;
+    outline-offset: -3px;
+}   
+.logo {
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border: 5px #000000 solid;
+    outline: 5px orangered solid;
+    outline-offset: -1px;
+}
+.img {
+    display: flex; /* Enable flexbox */
+    justify-content: space-between; /* Distribute space evenly */
+    align-items: center;
+    display: inline-block;
+    overflow: hidden;
+}
+figure {
+    display:inline-block;
+}
+figcaption {
+    background-color: burlywood;
+    border: 7px black solid;
+    outline: 5px orangered solid;
+    outline-offset: -3px;
+    font-faminly: Tahoma;
+    font-size: 28px;
+}
