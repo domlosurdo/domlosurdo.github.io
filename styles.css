@@ -44,6 +44,7 @@ figcaption {
     outline-offset: -3px;
     font-family: Tahoma;
     font-size: 28px;
+    Color: rgb(0, 0, 0);
 }
 .call {
     text-align: center;
@@ -77,4 +78,8 @@ button:hover {
     outline-offset: -3px;
     font-family: Tahoma;
     font-size: 28px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
 }
