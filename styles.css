@@ -1,76 +1,104 @@
 body {
     background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL3B4MTAxNzU1NC1pbWFnZS1rd3Z3ZzZidi5qcGc.jpg);
     background-size: cover;
-    text-align: center; 
-    padding-top: 75px;
-    display: flexbox;
+    font-family: tahoma;
 }
-h1 {
-    display: flexbox;
+
+#logosection {
+    padding-top: 4vh;
+}
+
+#logosection, #mottosection {
+    display: flex;
     justify-content: center;
-    align-items: center
-    color: rgb(2, 0, 0);
-    font-size: 32px;
-    font-family: Tahoma;
-    margin: 25px 15% 25px 15%;
-    background-color: burlywood;
-    border: 7px black solid;
-    outline: 5px orangered solid;
-    outline-offset: -3px;
-}   
-.logo {
-    display: flexbox;
+}
+
+#motto, #logo {
+    display: flex;
     justify-content: center;
-    align-items: center
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    height: 200px;
-    object-fit: cover;
-    object-position: center;
-    border: 5px #000000 solid;
-    outline: 5px orangered solid;
+    text-align: center;
+    border: .25vw #000000 solid;
+    outline: .2vw #ff5100 solid;
     outline-offset: -1px;
+    background-color:burlywood;
+    max-width: 100%;
+    height: auto;
+    font-size: x-large;
 }
-.img {
-    display: flex; /* Enable flexbox */
-    justify-content: space-between; /* Distribute space evenly */
-    align-items: center;
-    display: inline-block;
-    overflow: hidden;
+
+#motto {
+    padding-left: 5px;
+    padding-right: 5px
+    
 }
-figure {
-    display:inline-block;
+
+#services {
+    display: flex;
+    justify-content:space-evenly
 }
-figcaption {
-    background-color: burlywood;
-    border: 7px black solid;
-    outline: 5px orangered solid;
-    outline-offset: -3px;
-    font-family: Tahoma;
-    font-size: 28px;
-    Color: rgb(0, 0, 0);
-}
-button {
-    display: flexbox;
+
+#caption {
+    display: flex;
     justify-content: center;
-    align-items: center
-    background-color: rgb(226, 214, 255);
-    border: 7px black solid;
-    outline: 5px orangered solid;
-    outline-offset: -3px;
-    font-family: Tahoma;
-    font-size: 28px;
+    border: .25vw #000000 solid;
+    outline: .2vw orangered solid;
+    outline-offset: -1px;
+    background-color:burlywood;
+    font-size: 2vw
 }
-button:hover {
-    background-color: burlywood;
-    border: 7px black solid;
-    outline: 5px orangered solid;
-    outline-offset: -3px;
-    font-family: Tahoma;
-    font-size: 28px;
+
+#servpic {
+    max-width: 100%;
+    height: auto;
 }
-a {
-    color: inherit;
+
+#caption, #servpic {
+    flex-wrap: wrap;
+}
+
+#callbutton {
+    display: flex;
+    justify-content: center;
+}
+
+#call {
+    border: .35vw #000000 solid;
+    outline: .3vw orangered solid;
+    outline-offset: -1px;
+    background-color: rgb(130, 177, 248);
+    font-size: 2vw
+
+}
+
+#call:hover {
+    background-color: rgb(130, 177, 248)
+}
+#callanchor {
     text-decoration: none;
+    color: #1519e4;
+
+}
+#callanchor:active {
+    background-color: rgb(72, 209, 31)
+}
+
+
+@media (max-width: 600px) {
+  #logosection {
+     width: 50%;
+     margin: 0 auto;
+  }
+  #motto {
+    font-size:small;
+  }
+  #services {
+    flex-wrap: wrap;
+  }
+  #caption {
+    font-size: 6.5vw
+  }
+  #call {
+    font-size: 6vw;
+    
+  }
 }
