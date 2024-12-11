@@ -3,6 +3,7 @@ body {
     background-size: cover;
     text-align: center; 
     padding-top: 75px;
+    display: flexbox;
 }
 h1 {
     display: flexbox;
