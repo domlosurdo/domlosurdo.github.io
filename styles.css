@@ -1,11 +1,11 @@
 body {
-    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL3B4MTAxNzU1NC1pbWFnZS1rd3Z3ZzZidi5qcGc.jpg);
-    background-size: cover;
+    background-image: url(https://i.pinimg.com/originals/6c/ce/bb/6ccebb2186ea4c5961f6401bf7f9b514.jpg);
+    background-size:cover;
     font-family: tahoma;
 }
 
 #logosection {
-    padding-top: 4vh;
+    padding-top: 2vh;
 }
 
 #logosection, #mottosection {
@@ -49,7 +49,7 @@ body {
 
 #servpic {
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 #caption, #servpic {
@@ -62,8 +62,8 @@ body {
 }
 
 #call {
-    border: .35vw #000000 solid;
-    outline: .3vw orangered solid;
+    border: .25vw #000000 solid;
+    outline: .2vw orangered solid;
     outline-offset: -1px;
     background-color: rgb(130, 177, 248);
     font-size: 2vw
@@ -89,7 +89,7 @@ body {
      margin: 0 auto;
   }
   #motto {
-    font-size:small;
+    font-size: smaller;
   }
   #services {
     flex-wrap: wrap;
@@ -100,5 +100,10 @@ body {
   #call {
     font-size: 4vw;
     
+  }
+  #motto, #logo, #call, #caption {
+    border: 1vw #000000 solid;
+    outline: .5vw #ff5100 solid;
+    outline-offset: -1px;
   }
 }
